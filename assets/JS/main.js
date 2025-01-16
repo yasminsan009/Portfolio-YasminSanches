@@ -23,7 +23,7 @@ function updateHardSkills(profileData) {
 
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${Skill}</li>`).join('')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
 
@@ -34,11 +34,11 @@ function updateLanguages(profileData) {
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(project => {
+    portfolio.innerHTML = profileData.portfolio.map(portfolio => {
         return `
-            <div class="project" id="neon">
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                <a href="${project.url}" target="_blank">${project.url}</a>
+            <div class="portfolio" id="neon">
+                <h3 ${portfolio.github ? 'class="github"' : ''}>${portfolio.name}</h3>
+                <a href="${portfolio.url}" target="_blank">${portfolio.url}</a>
             </div>
         `
     }).join('')
