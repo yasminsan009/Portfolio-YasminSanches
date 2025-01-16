@@ -1,26 +1,26 @@
 {
     "name": "Yasmin de Lima Sanches",
-    "photo": "",
+    "photo": "https://avatars.githubusercontent.com/u/162188169?v=4",
 
     "skills": {
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/html.png"
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/css.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/js.png"
+          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/js.png"
         },
         {
           "name": "JAVA",
-          "logo": ""
+          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/java.png"
         }
-      ],
+      ],  
       "softSkills": [
         "Empatia",
         "Trabalho em equipe",
