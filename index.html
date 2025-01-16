@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+    <link rel="stylesheet" href="assets/CSS/alterarTema.css">
+
+    <title>Portfolio Yasmin</title>
+
+    <style>
+        .section2 {
+            background-image: url(assets/img/papel\ programação.jpg);
+        }
+
+        body.white-theme .section2 {
+            background-image: url(assets/img/dark.jpg);
+
+        }
+
+        @media only screen and (max-width:900px) {
+            .section2 {
+                background-image: url(assets/img/phone.webp);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <button id="theme-toggle">Alternar Tema</button>
+        <div class="Introducao">
+            <div class="profilePicture">
+                <img src="assets/img/myphoto.jpg" title="Profile picture" alt="Profile picture" id="profile.photo">
+            </div>
+            <br>
+            <div id="descricao">
+                <h1>Olá, eu sou <span id="profile.name">Carregando...</span></h1>
+                <p>
+                    Estudante apaixonada por Tecnologia, em específico Desenvolvimento de software Fullstack.
+                    Focado em inovação, crescimento estratégico e impacto
+                    positivo, busco constantemente aprimorar minhas soft e hard skills e gerar valor para projetos e
+                    equipes. Acredito no poder da colaboração e no impacto das soluções criativas para superar desafios.
+                </p>
+                <p class="location" id="profile.location">Carregando...</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <h2 class="skills">Skills</h2>
+            <div class="direction">
+                <div class="hard-skills">
+                    <ul id="profile.skills.hardSkills">
+                    </ul>
+                </div>
+                <div class="soft-skills">
+                    <h2>Soft Skills</h2>
+                    <ul id="profile.skills.softSkills">
+                        <li>Carregando...</li>
+                        <li>Carregando...</li>
+                        <li>Carregando...</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <ul class="languages" id="profile.languages">
+                        <li>Carregando...</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="projetos">
+                <h2>Projetos</h2>
+            </div>
+            <div class="project-list">
+                <ul class="project" id="profile.portfolio">
+                </ul>
+                <div class="project" id="neon">
+                    <a href="https://imers-o-alura-3rc496yf1-yasmin-sanches-projects.vercel.app/"><span>Recomendações de
+                            Séries:</span> Projeto realizado pela Imersão Alura com Gemini</a>
+                </div>
+                <div class="project" id="neon">
+                    <span>Porfolio:</span> Projeto final com JavaScript (Este Portfolio)
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <h2>Contato</h2>
+            </div>
+            <div class="contact">
+                
+                <p id="neon">Celular</p>
+                <p id="neon">E-mail</p>
+                <p id="neon">X</p>
+                <p id="neon"><a href="https://www.linkedin.com/in/yasminlimasanches">Linkedin</a></p>
+            </div>
+        </footer>
+    </main>
+    <script src="assets/JS/alterarTema.js"></script>
+    <script src="assets/JS/api.js"></script>
+    <script src="assets/JS/main.js"></script>
+</body>
+
+</html>

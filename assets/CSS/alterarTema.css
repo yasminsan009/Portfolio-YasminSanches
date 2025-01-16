@@ -1,0 +1,29 @@
+body.white-theme {
+    background-color: rgba(1, 131, 252, 0.664);
+    color: black;
+}
+
+body.white-theme header {
+    background-image: linear-gradient(rgba(82, 206, 185, 0.6), rgba(0, 132, 255, 0.411), rgba(82, 206, 185, 0.6));
+}
+
+body.white-theme p {
+    color: black;
+}
+
+body.white-theme h2 {
+    color: #073f68;
+}
+
+body.white-theme a {
+    color: #0a3a5c;
+}
+
+body.white-theme h1 {
+    color: #0a3a5c;
+}
+
+body.white-theme #theme-toggle {
+    color: #073f68;
+}
+

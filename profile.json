@@ -1,0 +1,51 @@
+{
+    "name": "Yasmin de Lima Sanches",
+    "photo": "",
+
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/js.png"
+        },
+        {
+          "name": "JAVA",
+          "logo": ""
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR (nativo)",
+      "Inglês (intermediário)"
+    ],
+    "project": [
+      {
+        "name": "Recomendações de Séries: Projeto Realizado pela Imersão Alura com Gemini",
+        "url": "https://github.com/yasminsan009/Imers-o-Alura",
+        "github": true
+      },
+      {
+        "name": "Portfolio: Projeto final com JavaScript (Este Portfolio)",
+        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "github": true
+      }
+    ],
+    "contact":{
+      "phone": "(31) 99765-0347",
+      "email": "yasminsan19009@gmail.com"
+    }
+  }
