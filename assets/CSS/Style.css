@@ -78,13 +78,13 @@ header {
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
     background-clip: text;
     -webkit-background-clip: text;
-    color: #008cff;    
-    text-shadow: 
-    0 0 5px #00f6ff, 
-    0 0 10px #00f6ff, 
-    0 0 20px #00f6ff, 
-    0 0 30px #00ccff, 
-    0 0 40px #00ccff;
+    color: #008cff;
+    text-shadow:
+        0 0 5px #00f6ff,
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
+        0 0 30px #00ccff,
+        0 0 40px #00ccff;
 }
 
 .header p {
@@ -117,13 +117,13 @@ header {
 
 .section1 #skillstitle {
     font-size: 3rem;
-    color: #008cff;    
-    text-shadow: 
-    0 0 5px #00f6ff, 
-    0 0 10px #00f6ff, 
-    0 0 20px #00f6ff, 
-    0 0 30px #00ccff, 
-    0 0 40px #00ccff;
+    color: #008cff;
+    text-shadow:
+        0 0 5px #00f6ff,
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
+        0 0 30px #00ccff,
+        0 0 40px #00ccff;
 }
 
 .section1 .skills {
@@ -181,53 +181,62 @@ header {
 
 }
 
-.section2 .projetos h2 {
+.section2 .projetos {
     font-size: 3rem;
     text-align: center;
     padding-top: 16rem;
     padding-bottom: 2rem;
-    color: #008cff;    
-    text-shadow: 
-    0 0 5px #00f6ff, 
-    0 0 10px #00f6ff, 
-    0 0 20px #00f6ff, 
-    0 0 30px #00ccff, 
-    0 0 40px #00ccff;
+    color: #008cff;
+    text-shadow:
+        0 0 5px #00f6ff,
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
+        0 0 30px #00ccff,
+        0 0 40px #00ccff;
 }
 
-.section2 .project-list {
+.section2 .portfolio-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
 }
 
 
 
-.section2 .project-list .project a {
+.section2 .portfolio-list .portfolio ul {
     text-decoration: none;
     color: white;
+
 }
 
 footer {
 
     padding-bottom: 3rem;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 132, 255, 0.411), rgba(0, 0, 0, .6));}
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 132, 255, 0.411), rgba(0, 0, 0, .6));
+}
+
 footer h2 {
     font-size: 3rem;
-    color: #008cff;    
-    text-shadow: 
-    0 0 5px #00f6ff, 
-    0 0 10px #00f6ff, 
-    0 0 20px #00f6ff, 
-    0 0 30px #00ccff, 
-    0 0 40px #00ccff;
+    color: #008cff;
+    text-shadow:
+        0 0 5px #00f6ff,
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
+        0 0 30px #00ccff,
+        0 0 40px #00ccff;
 }
-footer p {
+
+.contact ul {
     font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
 }
+
 footer a {
     color: white;
     text-decoration: none;
@@ -255,19 +264,21 @@ footer a {
 
 
 #neon:hover {
-    color: #00f6ff; /* Azul neon */
-    text-shadow: 
-        0 0 5px #00f6ff, 
-        0 0 10px #00f6ff, 
-        0 0 20px #00f6ff, 
-        0 0 30px #00ccff, 
+    color: #00f6ff;
+    /* Azul neon */
+    text-shadow:
+        0 0 5px #00f6ff,
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
+        0 0 30px #00ccff,
         0 0 40px #00ccff;
-    border-color: #00f6ff; /* Borda azul neon */
-    box-shadow: 
-        0 0 10px #00f6ff, 
-        0 0 20px #00f6ff, 
+    border-color: #00f6ff;
+    /* Borda azul neon */
+    box-shadow:
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
         0 0 30px #00ccff;
-    }
+}
 
 @media only screen and (max-width:900px) {
     .section1 .direction {
