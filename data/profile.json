@@ -1,24 +1,23 @@
 {
     "name": "Yasmin de Lima Sanches",
     "photo": "https://avatars.githubusercontent.com/u/162188169?v=4",
-
     "skills": {
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/html.png"
+          "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/html.png"
         },
         {
           "name": "CSS",
-          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/css.png"
+          "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/css.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/js.png"
+          "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/js.png"
         },
         {
           "name": "JAVA",
-          "logo": "https://github.com/yasminsan009/Portf-lio/blob/main/assets/img/java.png"
+          "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/java.png"
         }
       ],  
       "softSkills": [

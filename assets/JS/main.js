@@ -23,7 +23,7 @@ function updateHardSkills(profileData) {
 
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${Skill}</li>`).join('')
 }
 
 
@@ -40,19 +40,6 @@ function updatePortfolio(profileData) {
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
                 <a href="${project.url}" target="_blank">${project.url}</a>
             </div>
-        `
-    }).join('')
-}
-
-function updateProfessionalExperience(profileData) {
-    const professionalExperience = document.getElementById('profile.professionalExperience')
-    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-        return `
-            <li>
-                <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
-                <p>${experience.description}</p>
-            </li>
         `
     }).join('')
 }
