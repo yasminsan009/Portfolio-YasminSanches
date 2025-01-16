@@ -5,19 +5,19 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/html.png"
+        "logo": "https://raw.githubusercontent.com/yasminsan009/Portf-lio/refs/heads/main/assets/img/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/css.png"
+        "logo": "https://raw.githubusercontent.com/yasminsan009/Portf-lio/refs/heads/main/assets/img/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/js.png"
+        "logo": "https://raw.githubusercontent.com/yasminsan009/Portf-lio/refs/heads/main/assets/img/js.png"
       },
       {
         "name": "JAVA",
-        "logo": "https://raw.github.com/yasminsan009/Portf-lio/blob/main/assets/img/java.png"
+        "logo": "https://raw.githubusercontent.com/yasminsan009/Portf-lio/refs/heads/main/assets/img/java.png"
       }
     ],
     "softSkills": [
@@ -31,7 +31,7 @@
     "Português BR (nativo)",
     "Inglês (intermediário)"
   ],
-  "project": [
+  "portfolio": [
     {
       "name": "Recomendações de Séries: Projeto Realizado pela Imersão Alura com Gemini",
       "url": "https://github.com/yasminsan009/Imers-o-Alura",
@@ -42,9 +42,5 @@
       "url": "https://github.com/RenanJPaula/js-developer-portfolio",
       "github": true
     }
-  ],
-  "contact": {
-    "phone": "(31) 99765-0347",
-    "email": "yasminsan19009@gmail.com"
-  }
+  ]
 }

@@ -1,4 +1,3 @@
-
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -6,14 +5,6 @@ function updateProfileInfo(profileData) {
 
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
-
-    const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
-
-    const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
-    email.href = `mailto:${profileData.email}`
 }
 
 function updateHardSkills(profileData) {
@@ -26,7 +17,6 @@ function updateSoftSkills(profileData) {
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
-
 function updateLanguages(profileData) {
     const languages = document.getElementById('profile.languages')
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
@@ -34,12 +24,12 @@ function updateLanguages(profileData) {
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(portfolio => {
+    portfolio.innerHTML = profileData.portfolio.map(project => {
         return `
-            <div class="portfolio" id="neon">
-                <h3 ${portfolio.github ? 'class="github"' : ''}>${portfolio.name}</h3>
-                <a href="${portfolio.url}" target="_blank">${portfolio.url}</a>
-            </div>
+            <li>
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
         `
     }).join('')
 }
@@ -51,5 +41,4 @@ function updatePortfolio(profileData) {
     updateSoftSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
-    updateProfessionalExperience(profileData)
 })()
