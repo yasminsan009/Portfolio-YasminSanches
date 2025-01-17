@@ -20,17 +20,8 @@
         "logo": "https://raw.githubusercontent.com/yasminsan009/Portf-lio/refs/heads/main/assets/img/java.png"
       }
     ],
-    "softSkills": [
-      "Empatia",
-      "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
-    ]
+    "softSkills": ["Empatia", "Trabalho em equipe", "Flexibilidade", "Organização", "Inglês" ]
   },
-  "languages": [
-    "Português BR (nativo)",
-    "Inglês (intermediário)"
-  ],
   "portfolio": [
     {
       "name": "Recomendações de Séries: Projeto Realizado pela Imersão Alura com Gemini",

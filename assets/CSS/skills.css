@@ -1,14 +1,14 @@
 .skills {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
 }
 
 .skills .hard-skills ul,
-.skills .soft-skills ul,
-.skills .languages ul {
-    display: flex;
-    justify-content: center;
+.skills .soft-skills ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -19,11 +19,21 @@
     max-width: 50px;
     max-height: 50px;
     margin: 0 .5rem;
-    width: min-content;
+    width: auto;
 }
 
-.skills .soft-skills ul li,
-.skills .languages ul li {
-    padding: .5rem;
+.skills .soft-skills ul li {
+    padding: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .skills {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .skills .hard-skills,
+    .skills .soft-skills {
+        margin: 0 1rem 1rem;
+    }
+}

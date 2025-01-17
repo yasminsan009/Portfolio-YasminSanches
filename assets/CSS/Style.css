@@ -6,8 +6,9 @@ body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
     display: grid;
+    background-size: cover;
+    grid-template-rows: auto 1fr auto;
     background-color: black;
-    max-width: 100%;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
 
 p {
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     letter-spacing: 4px;
 }
 
@@ -30,8 +31,8 @@ section {
 
 header {
     max-width: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 5rem;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 132, 255, 0.411), rgba(0, 0, 0, .6));
     padding-top: 60px;
@@ -108,8 +109,8 @@ header {
 .section1 {
     max-width: fit-content;
     text-align: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -132,7 +133,7 @@ header {
 
 .section1 .hard-skills {
     border: 3px dotted #3BA1CD;
-    border-radius: 5%;
+    border-radius: 20px;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 2rem;
@@ -146,7 +147,7 @@ header {
 
 .section1 .soft-skills {
     border: 3px dotted #3BA1CD;
-    border-radius: 5%;
+    border-radius: 20px;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 2rem;
@@ -156,17 +157,6 @@ header {
 
 }
 
-.section1 .languages {
-    border: 3px dotted #3BA1CD;
-    border-radius: 5%;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-
-}
 .section2 {
     height: 55rem;
     background-size: cover;
@@ -181,7 +171,7 @@ header {
 .section2 h2 {
     font-size: 3rem;
     text-align: center;
-    padding-top: 16rem;
+    padding-top: 9rem;
     padding-bottom: 2rem;
     color: #008cff;
     text-shadow:
@@ -270,6 +260,11 @@ footer a {
 }
 
 @media only screen and (max-width:900px) {
+    .header .Introducao #descricao {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    
     .section1 .direction {
         flex-direction: column;
 
@@ -277,21 +272,19 @@ footer a {
 
     .section1 .hard-skills {
 
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-bottom: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
 
 
     }
 
     .section1 .soft-skills {
 
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-bottom: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
 
     }
 
 }
-
-
