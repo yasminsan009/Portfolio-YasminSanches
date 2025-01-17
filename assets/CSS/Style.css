@@ -115,6 +115,8 @@ header {
 
 }
 
+
+
 .section1 #skillstitle {
     font-size: 3rem;
     color: #008cff;
@@ -126,10 +128,7 @@ header {
         0 0 40px #00ccff;
 }
 
-.section1 .skills {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .section1 .hard-skills {
     border: 3px dotted #3BA1CD;
@@ -143,7 +142,6 @@ header {
 
 
 }
-
 
 
 .section1 .soft-skills {
@@ -169,7 +167,6 @@ header {
     margin-right: 2rem;
 
 }
-
 .section2 {
     height: 55rem;
     background-size: cover;
@@ -201,14 +198,6 @@ header {
     align-items: center;
     flex-direction: column;
     font-size: 1.5rem;
-}
-
-
-
-.section2 .portfolio-list .portfolio{
-    text-decoration: none;
-    color: white;
-
 }
 
 footer {
@@ -304,3 +293,5 @@ footer a {
     }
 
 }
+
+

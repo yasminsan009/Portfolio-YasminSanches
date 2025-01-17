@@ -1,0 +1,29 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.skills .hard-skills ul,
+.skills .soft-skills ul,
+.skills .languages ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .hard-skills ul li img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 .5rem;
+    width: min-content;
+}
+
+.skills .soft-skills ul li,
+.skills .languages ul li {
+    padding: .5rem;
+}
+
