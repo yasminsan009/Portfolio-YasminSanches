@@ -20,7 +20,17 @@
         "logo": "https://raw.githubusercontent.com/yasminsan009/Portf-lio/refs/heads/main/assets/img/java.png"
       }
     ],
-    "softSkills": ["Empatia", "Trabalho em equipe", "Flexibilidade", "Organização", "Inglês" ]
+    "softSkills": [
+      "Empatia", 
+      "Trabalho em equipe", 
+      "Flexibilidade", 
+      "Organização"
+    ],
+    "languages": [
+      "Português (Nativo)", 
+      "Inglês (Intermediário)", 
+      "Espanhol (Básico)"
+    ]
   },
   "portfolio": [
     {

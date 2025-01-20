@@ -7,20 +7,21 @@ function updateProfileInfo(profileData) {
     name.innerText = profileData.name
 }
 
+function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile.skills.softSkills');
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('');
+}
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => 
-        `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`
-    ).join('');
+        `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('');
 }
 
-function updateSoftSkills(profileData) {
-    const softSkills = document.getElementById('profile.skills.softSkills');
-    console.log("Soft Skills Data:", profileData.skills.softSkills); // Verifique os dados
-    softSkills.innerHTML = profileData.skills.softSkills
-        .map(skill => `<li>${skill}</li>`)
-        .join('');
+function updateLanguages(profileData) {
+    const languages = document.getElementById('profile.skills.languages')
+    languages.innerHTML = profileData.skills.languages.map(skill => `<li>${skill}</li>`).join('');
 }
+
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio');
@@ -37,9 +38,9 @@ function updatePortfolio(profileData) {
 
 document.addEventListener("DOMContentLoaded", async () => {
     const profileData = await fetchProfileData();
-    console.log("Profile Data:", profileData); // Ver
     updateProfileInfo(profileData);
-    updateHardSkills(profileData);
     updateSoftSkills(profileData);
+    updateHardSkills(profileData);
+    updateLanguages(profileData);
     updatePortfolio(profileData);
 });
