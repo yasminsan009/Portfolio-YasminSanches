@@ -40,7 +40,12 @@
     },
     {
       "name": "Portfolio: Projeto final com JavaScript (Este Portfolio)",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/yasminsan009/Portf-lio",
+      "github": true
+    },
+    {
+      "name": "Página Discord: Projeto CSS usando Grid",
+      "url": "https://github.com/yasminsan009/Desafio-Discord",
       "github": true
     }
   ]
